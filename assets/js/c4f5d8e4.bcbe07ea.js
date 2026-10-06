@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([["4823"],{7176(e,s,a){a.r(s),a.d(s,{default:()=>u});var r=a(4848);a(6540);var t=a(6347);function u(){return(0,r.jsx)(t.rd,{to:"/docs/korzysci-wynikajace-z-wdrozenia-systemu-asiston-produkcja"})}}}]);

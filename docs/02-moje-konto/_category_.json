@@ -1,0 +1,8 @@
+{
+  "label": "2. Moje Konto",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "moje-konto/index"
+  }
+}

@@ -1,0 +1,72 @@
+:root {
+  /* MES LIGHT */
+  --ifm-background-color: #F8F9FA;
+  --ifm-background-surface-color: #FFFFFF;
+
+  /* Sidebar MES (Ciemny grafit) */
+  --ifm-sidebar-background-color: #181C20;
+
+  /* Asiston MES Turquoise / Cyan */
+  --ifm-color-primary: #00B8B2;
+  --ifm-color-primary-dark: #00A19B;
+  --ifm-color-primary-darker: #009892;
+  --ifm-color-primary-darkest: #007D78;
+  --ifm-color-primary-light: #12CFC8;
+  --ifm-color-primary-lighter: #28D8D1;
+  --ifm-color-primary-lightest: #51E3DC;
+}
+
+[data-theme='dark'] {
+  /* MES DARK */
+  --ifm-background-color: #212529;
+  --ifm-background-surface-color: #181C20;
+
+  /* Sidebar MES Dark */
+  --ifm-sidebar-background-color: #121619;
+
+  /* Asiston MES Turquoise / Cyan */
+  --ifm-color-primary: #00B8B2;
+  --ifm-color-primary-dark: #00A19B;
+  --ifm-color-primary-darker: #009892;
+  --ifm-color-primary-darkest: #007D78;
+  --ifm-color-primary-light: #12CFC8;
+  --ifm-color-primary-lighter: #28D8D1;
+  --ifm-color-primary-lightest: #51E3DC;
+}
+
+/* Wymuszenie koloru przycisków i aktywnych elementów */
+.button--primary {
+  --ifm-button-background-color: var(--ifm-color-primary);
+  --ifm-button-border-color: var(--ifm-color-primary);
+}
+
+[role="tabpanel"] {
+  min-height: 280px; /* Zmniejszono z 600px, aby uniknąć pustych przestrzeni przy mniejszych tabelach */
+}
+
+/* Custom Scrollbar dla MES */
+
+/* Modern Standard CSS (Firefox, nowe edycje Chromium) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ifm-color-primary) var(--ifm-sidebar-background-color);
+}
+
+/* Wersja WebKit (Chromium/Safari) - daje pełną kontrolę nad kształtem i zaokrągleniami */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ifm-sidebar-background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-primary-dark);
+}

@@ -1,0 +1,270 @@
+<!doctype html><html lang=pl-PL dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-konfiguracja-systemu/panel-operatora" data-has-hydrated=false><head><meta charset=UTF-8><meta name=generator content="Docusaurus v3.10.2"><title data-rh=true>Panel Operatora | Dokumentacja Asiston</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"/><meta data-rh=true name=twitter:card content=summary_large_image /><meta data-rh=true property=og:image content=https://your-docusaurus-site.example.com/img/docusaurus-social-card.jpg /><meta data-rh=true name=twitter:image content=https://your-docusaurus-site.example.com/img/docusaurus-social-card.jpg /><meta data-rh=true property=og:url content=https://your-docusaurus-site.example.com/docs/konfiguracja-systemu/panel-operatora /><meta data-rh=true property=og:locale content=pl_PL /><meta data-rh=true name=docusaurus_locale content=pl-PL /><meta data-rh=true name=docsearch:language content=pl-PL /><meta data-rh=true name=docusaurus_version content=current /><meta data-rh=true name=docusaurus_tag content=docs-default-current /><meta data-rh=true name=docsearch:version content=current /><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current /><meta data-rh=true property=og:title content="Panel Operatora | Dokumentacja Asiston"/><meta data-rh=true name=description content="Moduł ten opisuje funkcjonalności przeznaczone dla operatora produkcji związane z realizacją procesu produkcyjnego, rozliczaniem produkcji, zgłaszaniem awarii i kontrolą jakości."/><meta data-rh=true property=og:description content="Moduł ten opisuje funkcjonalności przeznaczone dla operatora produkcji związane z realizacją procesu produkcyjnego, rozliczaniem produkcji, zgłaszaniem awarii i kontrolą jakości."/><link data-rh=true rel=icon href=/img/AsistonLogo.ico /><link data-rh=true rel=canonical href=https://your-docusaurus-site.example.com/docs/konfiguracja-systemu/panel-operatora /><link data-rh=true rel=alternate href=https://your-docusaurus-site.example.com/docs/konfiguracja-systemu/panel-operatora hreflang=pl-PL /><link data-rh=true rel=alternate href=https://your-docusaurus-site.example.com/docs/konfiguracja-systemu/panel-operatora hreflang=x-default /><script data-rh=true type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://your-docusaurus-site.example.com/docs/konfiguracja-systemu/","name":"6. Konfiguracja systemu","position":1},{"@type":"ListItem","item":"https://your-docusaurus-site.example.com/docs/konfiguracja-systemu/panel-operatora","name":"6.7. Panel Operatora","position":2}]}</script><link rel=alternate type=application/rss+xml href=/blog/rss.xml title="Dokumentacja Asiston RSS Feed"><link rel=alternate type=application/atom+xml href=/blog/atom.xml title="Dokumentacja Asiston Atom Feed"><link rel=stylesheet href=/assets/css/styles.de336142.css /><script src=/assets/js/runtime~main.eb024173.js defer></script><script src=/assets/js/main.180e3864.js defer></script></head><body><svg style="display: none;"><defs>
+<symbol id=theme-svg-external-link viewBox="0 0 24 24"><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme-9f6")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><link rel=preload as=image href=/img/AsistonLogo.ico /><div role=region aria-label="Przejdź do głównej zawartości"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Przejdź do głównej zawartości</a></div><nav aria-label=Główny class="theme-layout-navbar navbar navbar--fixed-top"><div class=navbar__inner><div class="theme-layout-navbar-left navbar__items"><button aria-label="Przełączanie panelu nawigacyjnego" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/><div class=navbar__logo><img src=/img/AsistonLogo.ico alt=Asiston class="themedComponent_mlkZ themedComponent--light_NVdE"/><img src=/img/AsistonLogo.ico alt=Asiston class="themedComponent_mlkZ themedComponent--dark_xIcU"/></div><b class="navbar__title text--truncate">Dokumentacja Asiston</b></a><a aria-current=page class="navbar__item navbar__link navbar__link--active" href=/docs/korzysci-wynikajace-z-wdrozenia-systemu-asiston-produkcja/>MES</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type=button disabled title="system mode" aria-label="Przełącz pomiędzy ciemnym a jasnym motywem (aktualnie ustawiony system mode)"><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill=currentColor d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"/></svg></button></div><div class=navbarSearchContainer_Bca1><div class="navbar__search searchBarContainer_NW3z" dir=ltr><svg aria-hidden=true class=searchIcon_T3tP focusable=false viewBox="0 0 16 16"><path fill=currentColor d="M6.02945 10.20327a4.17382 4.17382 0 1 1 4.17382-4.17382 4.15609 4.15609 0 0 1-4.17382 4.17382Zm9.69195 4.2199-4.8225-4.82338A5.88021 5.88021 0 0 0 12.058 6.02856 6.00467 6.00467 0 1 0 9.59979 10.8989l4.82338 4.82338a.89729.89729 0 0 0 1.29912 0 .89749.89749 0 0 0-.00087-1.29909Z"/></svg><input placeholder=Search aria-label=Search class="navbar__search-input searchInput_YFbd" value="" /><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Przewiń do góry" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label="Panel boczny dokumentów" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/docs/korzysci-wynikajace-z-wdrozenia-systemu-asiston-produkcja/><span class=linkLabel_WmDU>1. Korzyści wynikające z wdrożenia systemu Asiston Produkcja</span></a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/docs/moje-konto/><span class=categoryLinkLabel_W154>2. Moje Konto</span></a><button aria-label="Rozwiń kategorię paska bocznego '2. Moje Konto'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/docs/administracja/><span class=categoryLinkLabel_W154>3. Administracja</span></a><button aria-label="Rozwiń kategorię paska bocznego '3. Administracja'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/docs/repozytorium-plikow/><span class=linkLabel_WmDU>4. Repozytorium plików</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/docs/produkty/><span class=linkLabel_WmDU>5. Produkty</span></a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href=/docs/konfiguracja-systemu/><span class=categoryLinkLabel_W154>6. Konfiguracja systemu</span></a><button aria-label="Zwiń kategorię paska bocznego '6. Konfiguracja systemu'" aria-expanded=true type=button class="clean-btn menu__caret"></button></div><ul class=menu__list><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex=0 href=/docs/konfiguracja-systemu/konfiguracja-systemu/><span class=categoryLinkLabel_W154>6.1 Konfiguracja systemu</span></a><button aria-label="Rozwiń kategorię paska bocznego '6.1 Konfiguracja systemu'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/docs/konfiguracja-systemu/receptury-produkcji><span class=linkLabel_WmDU>6.2. Receptury produkcji</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/docs/konfiguracja-systemu/plany-produkcji><span class=linkLabel_WmDU>6.3. Plany produkcji</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/docs/konfiguracja-systemu/zlecenia-produkcyjne><span class=linkLabel_WmDU>6.4. Zlecenia produkcyjne</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/docs/konfiguracja-systemu/zarzadzanie-awariami><span class=linkLabel_WmDU>6.5. Zarządzanie awariami</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/docs/konfiguracja-systemu/zamowienia-od-klientow><span class=linkLabel_WmDU>6.6. Zamówienia od klientów</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current=page tabindex=0 href=/docs/konfiguracja-systemu/panel-operatora><span class=linkLabel_WmDU>6.7. Panel Operatora</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/docs/konfiguracja-systemu/zadania-okoloprodukcyjne><span class=linkLabel_WmDU>6.8. Zadania okołoprodukcyjne</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/docs/konfiguracja-systemu/harmonogram-produkcji><span class=linkLabel_WmDU>6.9. Harmonogram produkcji</span></a></ul><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/docs/raporty/><span class=linkLabel_WmDU>7. Raporty</span></a></ul></nav></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_VOVn"><div class=docItemContainer_Djhp><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Pasek nawigacji"><ul class=breadcrumbs><li class=breadcrumbs__item><a aria-label="Strona główna" class=breadcrumbs__link href=/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_YNFT><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li class=breadcrumbs__item><a class=breadcrumbs__link href=/docs/konfiguracja-systemu/><span>6. Konfiguracja systemu</span></a><li class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link>6.7. Panel Operatora</span></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type=button class="clean-btn tocCollapsibleButton_TO0P">Na tej stronie</button></div><div class="theme-doc-markdown markdown"><header><h1>Panel Operatora</h1></header><p>Moduł ten opisuje funkcjonalności przeznaczone dla operatora produkcji związane z realizacją procesu produkcyjnego, rozliczaniem produkcji, zgłaszaniem awarii i kontrolą jakości.</p>
+<p><strong>Panel operatora to moduł, w którym możliwe jest:</strong></p>
+<ul>
+<li class="">Przeglądanie operacji przypisanych do operatora,</li>
+<li class="">Przeglądanie operacji w trakcie realizacji, jak również rozliczenie wyrobów gotowych, półproduktów, surowców, odpadów,</li>
+<li class="">Przeprowadzanie kontroli jakości,</li>
+<li class="">Zgłaszanie awarii maszyn,</li>
+<li class="">Realizacja i dodawanie zadań okołoprodukcyjnych,</li>
+<li class="">Odnotowanie przerwy.</li>
+</ul>
+<p><strong>Na widok panelu operatora składa się:</strong></p>
+<ul>
+<li class="">Moje operacje,</li>
+<li class="">Realizowane,</li>
+<li class="">Kontrola jakości,</li>
+<li class="">Awarie,</li>
+<li class="">Zadania okołoprodukcyjne,</li>
+<li class="">Przerwa.</li>
+</ul>
+<p><strong>Widok panelu operatora</strong></p>
+<p><img decoding=async loading=lazy alt="Widok panelu operatora" src=/assets/images/Panel_operatora_widok-44d4d6b14de87e298107dea34594bbc8.png width=1910 height=790 class=img_ev3q /></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=moje-operacje-w-panelu-operatora>Moje operacje w panelu operatora<a href=#moje-operacje-w-panelu-operatora class=hash-link aria-label="Bezpośredni link do Moje operacje w panelu operatora" title="Bezpośredni link do Moje operacje w panelu operatora" translate=no>​</a></h3>
+<p>W zakładce moje operacji użytkownik ma podgląd na wszystkie operacje przypisane do naszego stanowiska.</p>
+<p><strong>Lista składa się z następujących kolumn:</strong></p>
+<ul>
+<li class="">Typ operacji,</li>
+<li class="">Zlecenie,</li>
+<li class="">Operacja,</li>
+<li class="">Maszyna,</li>
+<li class="">Produkt wyjściowy,</li>
+<li class="">Termin(do),</li>
+<li class="">Status,</li>
+<li class="">Postęp realizacji,</li>
+<li class="">Akcje:<!-- -->
+<ul>
+<li class="">Realizuj,</li>
+<li class="">Pokaż szczegóły.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Lista moje operacje</strong></p>
+<p><img decoding=async loading=lazy alt="Lista moje operacje" src=/assets/images/Panel_operatora_moje_operacje-617479128e709c8b97704ddc690498d3.png width=1905 height=598 class=img_ev3q /></p>
+<p>Klikając „Realizuj” rozpoczynamy realizacje operacji, operacja ta pojawia się w „Realizowane”.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=realizowane-w-panelu-operatora>Realizowane w panelu operatora<a href=#realizowane-w-panelu-operatora class=hash-link aria-label="Bezpośredni link do Realizowane w panelu operatora" title="Bezpośredni link do Realizowane w panelu operatora" translate=no>​</a></h3>
+<p>W zakładce realizowane widzimy listę wszystkie rozpoczętych przez nas operacji.</p>
+<p><strong>Lista składa się z:</strong></p>
+<ul>
+<li class="">Typ operacji,</li>
+<li class="">Zlecenie,</li>
+<li class="">Maszyna,</li>
+<li class="">Produkt wyjściowy,</li>
+<li class="">Termin(do),</li>
+<li class="">Status,</li>
+<li class="">Postęp realizacji,</li>
+<li class="">Akcje:<!-- -->
+<ul>
+<li class="">Realizuj,</li>
+<li class="">Pokaż szczegóły.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Lista rozpoczętych operacji</strong></p>
+<p><img decoding=async loading=lazy alt="Lista rozpoczętych operacji" src=/assets/images/Panel_operatora_realizowane-c2aae791926fb9396b1a2dd8d854d7cd.png width=1909 height=592 class=img_ev3q /></p>
+<p><strong>Przechodząc do szczegółów operacji widzimy:</strong></p>
+<ul>
+<li class="">Numer zlecenia,</li>
+<li class="">Status,</li>
+<li class="">Pasek postępu,</li>
+<li class="">Opis i dodatkowe uwagi,</li>
+<li class="">Załączniki,</li>
+<li class="">Sekcje składniki:<!-- -->
+<ul>
+<li class="">Pobierz składniki,</li>
+<li class="">Rozlicz odpady,</li>
+<li class="">Rozlicz wyroby,</li>
+</ul>
+</li>
+<li class="">Sekcje kontrola jakości:<!-- -->
+<ul>
+<li class="">Czynności kontrolne do wykonania,</li>
+</ul>
+</li>
+<li class="">Sekcje dane podstawowe:<!-- -->
+<ul>
+<li class="">Podstawowe informacje o zleceniu,</li>
+<li class="">Data utworzenia,</li>
+<li class="">Numer zlecenia,</li>
+<li class="">Operacja,</li>
+<li class="">Maszyna,</li>
+<li class="">Wyrób gotowy,</li>
+<li class="">Ilość,</li>
+<li class="">Termin realizacji,</li>
+<li class="">Opis i dodatkowe uwagi,</li>
+</ul>
+</li>
+<li class="">Przyciski funkcyjne:<!-- -->
+<ul>
+<li class="">Powrót – pozwala na cofnięcie do listy operacji,</li>
+<li class="">Zatrzymaj – powoduje zatrzymanie realizacji operacji w systemie,</li>
+<li class="">Drukuj PDF – umożliwia wydruk karty operacji, która zawiera poniższe informacje związane z operacją:<!-- -->
+<ul>
+<li class="">Numer zlecenia produkcyjnego,</li>
+<li class="">Operacja,</li>
+<li class="">Maszyna,</li>
+<li class="">Produkt wyjściowy,</li>
+<li class="">Opis operacji,</li>
+<li class="">Listy składników, odpadów oraz wyrobu gotowego:<!-- -->
+<ul>
+<li class="">Towar,</li>
+<li class="">Symbol,</li>
+<li class="">Ilość,</li>
+</ul>
+</li>
+<li class="">Wydruk załącznika,</li>
+<li class="">Rozlicz produkcję.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Panel operatora - szczegóły operacji</strong></p>
+<p><img decoding=async loading=lazy alt="Panel operatora - szczegóły operacji" src=/assets/images/Panel_operatora_realizowane_szczegoly-46eb4359dc57d5e3d050def6f235ff58.png width=1912 height=790 class=img_ev3q /></p>
+<p><strong>Panel operatora - wydruk karty operacji</strong></p>
+<p><img decoding=async loading=lazy alt="Panel operatora - wydruk karty operacji" src=/assets/images/Panel_operatora_karta_operacji-805ea91fcde3507c07ad494d4f2c2ec7.png width=338 height=315 class=img_ev3q /></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=pobierz-surowce>Pobierz surowce<a href=#pobierz-surowce class=hash-link aria-label="Bezpośredni link do Pobierz surowce" title="Bezpośredni link do Pobierz surowce" translate=no>​</a></h4>
+<p>Po kliknięciu pobierz surowce otwiera się okno gdzie potwierdzamy ilości, które pobiera do produkcji - operator może pobrać składniki zarówno na całą produkcję, jak również na część.
+Sposób integracji związanej z dokumentami tworzonymi w systemie ERP określony jest w konfiguracji.</p>
+<p><strong>Pobieranie surowców do operacji</strong></p>
+<p><img decoding=async loading=lazy alt="Pobieranie surowców do operacji" src=/assets/images/Panel_operatora_poberanie_skladnikow-6f9ebfc3494a8dbb8d5513d7d335d8fc.png width=1843 height=376 class=img_ev3q /></p>
+<p><strong>Pobierając składniki operator ma możliwość pobrać:</strong></p>
+<ul>
+<li class="">w częściach – wskazując ilość składników potrzebną do wyprodukowania określonej ilości wyrobów. Wówczas w systemie ERP zostaną wygenerowane dokumenty RW na składniki, które zostały zużyte w tej partii oraz PW na produkty wyjściowe w ilości, jakiej zostanie wskazane. W ERP zostanie dodane przyjęcie na magazyn produkcyjny.</li>
+<li class="">w całości – wówczas w systemie ERP wygenerują się dokumenty RW na wszystkie składniki pobrane do realizacji tego zadania oraz PW na całkowitą ilość produktu wyjściowego, w ERP zostanie dodane przyjęcie na magazyn produkcyjny.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=rozlicz-odpady>Rozlicz odpady<a href=#rozlicz-odpady class=hash-link aria-label="Bezpośredni link do Rozlicz odpady" title="Bezpośredni link do Rozlicz odpady" translate=no>​</a></h4>
+<p>Poprzez przycisk rozlicz odpady operator ma możliwość rozliczenia odpadów i zwrotów powstałych w trakcie produkcji.
+Na liście system wskazuje produkty, które zostały określone w recepturze jako odpad lub zwrot.
+Operator podaje ilości przy pozycjach i zatwierdza.
+Po zatwierdzeniu utworzy się PW na odpady/zwroty w ilości, jakiej zostanie wskazane i w ERP zostanie dodane przyjęcie na odpowiednią lokalizację.</p>
+<p><strong>Rozliczenie odpadów z operacji</strong></p>
+<p><img decoding=async loading=lazy alt="Rozliczenie odpadów z operacji" src=/assets/images/Panel_operatora_rozliczanie_odpadow-3f75dc5541de52a31d788c1c536600a9.png width=1846 height=376 class=img_ev3q /></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=rozlicz-wyroby>Rozlicz wyroby<a href=#rozlicz-wyroby class=hash-link aria-label="Bezpośredni link do Rozlicz wyroby" title="Bezpośredni link do Rozlicz wyroby" translate=no>​</a></h4>
+<p><strong>Rozliczając wyroby operator ma możliwość rozliczyć:</strong></p>
+<ul>
+<li class="">w częściach – wskazując ilość wyprodukowanych sztuk. Wówczas w systemie ERP zostaną wygenerowane dokumenty RW na składniki zużyte do wyprodukowania określonej części wyrobów gotowych oraz PW na produkty wyjściowe w ilości, jaka zostanie wskazana. W ERP zostanie dodane przyjęcie na magazyn określony w konfiguracji.</li>
+<li class="">w całości – wówczas w systemie ERP wygenerują się dokumenty RW na wszystkie składniki pobrane do realizacji tego zadania oraz PW na całkowitą ilość produktu wyjściowego, w ERP zostanie dodane przyjęcie na magazyn produkcyjny.</li>
+</ul>
+<p>Rozliczenia odbywają się według konfiguracji: Konfiguracja / Procesy / Zlecenia produkcyjne - Pozycja: „Rozliczanie wyrobu gotowego”.</p>
+<p>Jeżeli operacja zostanie zrealizowana w całości, zostanie ona zamknięta, a operator będzie miał możliwość rozpoczęcia kolejnego zadania w panelu operatora.</p>
+<p>Jeżeli po zakończonej operacji była zaplanowana operacja „następująca”, w panelu operatora pojawi się zadanie dla kolejnego pracownika produkcji, który jest przypisany do kolejnej operacji.</p>
+<p>Operacja w konfiguracji może zostać oznaczona do planowania po pierwszej sztuce.
+Wówczas, jeżeli zostanie rozliczona przynajmniej jedna sztuka na danej operacji, to inny operator może rozpocząć realizację zadania bez czekania na wyprodukowanie całości.</p>
+<p>W momencie rozliczenia wszystkich operacji, nastąpi zakończenie zlecenia produkcyjnego.
+Gdy wszystkie operacje zostaną zrealizowane, zlecenie produkcyjne przyjmie status „Zakończone”.</p>
+<p><strong>Rozliczenie wyrobów z operacji</strong></p>
+<p><img decoding=async loading=lazy alt="Rozliczenie wyrobów z operacji" src=/assets/images/Panel_operatora_rozliczanie_wyrobow-fadadfcd15e945a8d40d4cd7b049820a.png width=1843 height=325 class=img_ev3q /></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=kontrola-jakości-w-panelu-operatora>Kontrola jakości w panelu operatora<a href=#kontrola-jakości-w-panelu-operatora class=hash-link aria-label="Bezpośredni link do Kontrola jakości w panelu operatora" title="Bezpośredni link do Kontrola jakości w panelu operatora" translate=no>​</a></h3>
+<p>W panelu operatora po kliknięciu kafelka kontroli jakości widzimy listę zawierającą wszystkie czynności kontrolne, które należy przeprowadzić w ramach danego zlecenia produkcyjnego.</p>
+<p><strong>Lista zawiera następujące informacje:</strong></p>
+<ul>
+<li class="">Operacja,</li>
+<li class="">Numer zlecenia,</li>
+<li class="">Nazwa kontroli,</li>
+<li class="">Typ kontroli,</li>
+<li class="">Status,</li>
+<li class="">Postęp realizacji,</li>
+<li class="">Akcje:<!-- -->
+<ul>
+<li class="">Realizuj.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Panel operatora - kontrola jakości</strong></p>
+<p><img decoding=async loading=lazy alt="Panel operatora - kontrola jakości" src=/assets/images/Panel_operatora_kontrola_jakosci-5a56c136d668d6a19a11968e1f1e5073.png width=1907 height=764 class=img_ev3q /></p>
+<p>Realizując daną kontrolę postępujemy według wcześniej zdefiniowanego planu kontroli jakości, który został przypisany w recepturze produkcji.</p>
+<p><strong>Po kliknięciu realizuj wyświetla się okno z podglądem stanu realizacji kontroli oraz szczegółami:</strong></p>
+<ul>
+<li class="">Dane podstawowe:<!-- -->
+<ul>
+<li class="">Typ kontroli,</li>
+<li class="">Numer zlecenia,</li>
+<li class="">Operacja.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Kliknięcie przycisku kontroluj rozwija okno o następujące elementy:</strong></p>
+<ul>
+<li class="">Lista rozwijana z wyborem produktu,</li>
+<li class="">Pole z numerem seryjnym/partią oraz szczegółami kontroli,</li>
+<li class="">Sekcja z parametrami kontroli wyszczególnionymi w konfiguracji planu kontroli jakości.</li>
+</ul>
+<p>Po zapisaniu okna zapisują się również podane parametry kontrolne.</p>
+<p><strong>Okno kontroli jakości</strong></p>
+<p><img decoding=async loading=lazy alt="Okno kontroli jakości" src=/assets/images/Panel_operatora_kontrola_jakosci_okno-61600a6fa67a319a2cb02ba6490b085f.png width=273 height=459 class=img_ev3q /></p>
+<p>Po wykonaniu wszystkich czynności kontrolnych status kontroli z „W trakcie realizacji” zmieni się na „Zakończona”.</p>
+<p><strong>Widok czynności kontrolnych w szczegółach operacji</strong></p>
+<p><img decoding=async loading=lazy alt="Widok czynności kontrolnych w szczegółach operacji" src=/assets/images/Panel_operatora_kontrola_jakosci_czynnosci-19ea9ed03cf89181f8fac83d80461169.png width=605 height=126 class=img_ev3q /></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=awarie-w-panelu-operatora>Awarie w panelu operatora<a href=#awarie-w-panelu-operatora class=hash-link aria-label="Bezpośredni link do Awarie w panelu operatora" title="Bezpośredni link do Awarie w panelu operatora" translate=no>​</a></h3>
+<p><strong>Operator ma możliwość zgłoszenia awarii maszyny na każdym etapie produkcji. Aby to zrobić musi wejść w panel "Awarie", gdzie pokaże mu się formularz do uzupełnienia, zawiera on:</strong></p>
+<ul>
+<li class="">Maszyna,</li>
+<li class="">Rodzaj,</li>
+<li class="">Opis.</li>
+</ul>
+<p><strong>Panel operatora - zgłoszenie awarii</strong></p>
+<p><img decoding=async loading=lazy alt="Panel operatora - zgłoszenie awarii" src=/assets/images/Panel_operatora_awarie-8e14b07a0fbaf74ea9aea6c60229e744.png width=1906 height=943 class=img_ev3q /></p>
+<p>Zgłoszona awaria pojawi się na liście w module Zarządzanie awariami.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=zadania-okołoprodukcyjne-w-panelu-operatora>Zadania okołoprodukcyjne w panelu operatora<a href=#zadania-okołoprodukcyjne-w-panelu-operatora class=hash-link aria-label="Bezpośredni link do Zadania okołoprodukcyjne w panelu operatora" title="Bezpośredni link do Zadania okołoprodukcyjne w panelu operatora" translate=no>​</a></h3>
+<p><strong>Po przejściu do zadań okołoprodukcyjnych pracownik widzi listę zadań, które zostały dodane przez osobę uprawnioną. Na liście widzimy:</strong></p>
+<ul>
+<li class="">Zadanie,</li>
+<li class="">Czas na realizację,</li>
+<li class="">Okno z podglądem realizacji zadania z licznikiem czasu i przyciskiem do rozpoczęcia zadania i zakończenia.</li>
+</ul>
+<p>W pierwszej kolejności użytkownik wybiera z listy po lewej stronie zadanie, które będzie realizował.</p>
+<p><strong>Następnie w widoku po prawej pojawią mu się podstawowe informacje o danym zadaniu:</strong></p>
+<ul>
+<li class="">status,</li>
+<li class="">czas na zadanie – zakładany czas na realizację zadania, ustalony przez administratora podczas konfiguracji zadania,</li>
+<li class="">pozostało – wyświetlany po rozpoczęciu realizacji zadania, pokazuje różnicę pomiędzy czasem na zadanie a czasem rzeczywistym realizacji zadania.</li>
+</ul>
+<p>Poniżej danych podstawowych znajduje się zegar odliczający czas od rozpoczęcia realizacji zadania.
+Pod nim jest przycisk "Rozpocznij zadanie", po którego naciśnięciu rozpoczyna się realizacja zadania, rusza zegar odmierzający czas.
+Poniżej zegara znajduje się opis, dodany podczas konfiguracji zadania.</p>
+<p>Następnie przycisk ten zmienia się na "Zatrzymaj zadanie", co umożliwia zakończenie realizacji zadania okołoprodukcyjnego.
+Czas realizacji zadania zostaje zatrzymany a dane o zadaniu trafiają na listę zadań okołoprodukcyjnych w module „Zadania okołoprodukcyjne”.</p>
+<p><strong>Panel operatora - Zadania okołoprodukcyjne</strong></p>
+<p><img decoding=async loading=lazy alt="Panel operatora - Zadania okołoprodukcyjne" src=/assets/images/Panel_operatora_zadania_okoloprodukcyjne-3cdccf884d3a04d255f07b105dc24c05.png width=1909 height=941 class=img_ev3q /></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=przerwy-w-panelu-operatora>Przerwy w panelu operatora<a href=#przerwy-w-panelu-operatora class=hash-link aria-label="Bezpośredni link do Przerwy w panelu operatora" title="Bezpośredni link do Przerwy w panelu operatora" translate=no>​</a></h3>
+<p><strong>Przerwę operator może zgłosić na każdym etapie produkcji. Po wejściu w panel "Przerwy" wybiera z listy po lewej stronie powód przerwy. Po prawej stronie pokażą się podstawowe informacje, takie jak:</strong></p>
+<ul>
+<li class="">status,</li>
+<li class="">czas na zadanie – predefiniowany przed administratora podczas konfiguracji przerwy,</li>
+<li class="">pozostało – czas pozostały na przerwę, jest to różnica pomiędzy czasem na zadanie a rzeczywistym czasem przerwy.</li>
+</ul>
+<p>Poniżej znajduje się czas trwania przerwy oraz przycisk "Rozpocznij", który rozpoczyna realizację przerwy.
+Po rozpoczęciu rusza zegar a przycisk zmienia się na "Zakończ".</p>
+<p><strong>Panel operatora - przerwy</strong></p>
+<p><img decoding=async loading=lazy alt="Panel operatora - przerwy" src=/assets/images/Panel_operatora_przerwa-6ebc70021414f4f853e1176cce73a864.png width=1909 height=947 class=img_ev3q /></p>
+<p>Jeżeli w konfiguracji systemu zdefiniowano automatyczne powiadomienie dla danej przerwy, w panelu operatora o ustalonej godzinie (uwzględniającej czas wyprzedzenia) wyświetli się okno z przypomnieniem.</p>
+<p><strong>Okno powiadomienia zawiera:</strong></p>
+<ul>
+<li class="">licznik czasu: wyświetla dynamicznie odliczany czas do rozpoczęcia przerwy,</li>
+<li class="">przycisk „Przejdź do widoku przerw”: kliknięcie przycisku przekierowuje operatora bezpośrednio do ekranu „Przerwy”, umożliwiając szybkie rozpoczęcie rejestracji przerwy w systemie,</li>
+<li class="">opcje zamknięcia: operator ma możliwość zamknięcia powiadomienia i kontynuowania pracy do momentu faktycznego rozpoczęcia przerwy.</li>
+</ul>
+<p><strong>Panel operatora przypomnienie o przerwie</strong></p>
+<p><img decoding=async loading=lazy alt="Panel operatora przypomnienie o przerwie" src=/assets/images/Panel_operatora_przerwy_przypomnienie-9463163949f245cd0d257098857a64ba.png width=249 height=167 class=img_ev3q /></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=skaner-w-panelu-operatora>Skaner w panelu operatora<a href=#skaner-w-panelu-operatora class=hash-link aria-label="Bezpośredni link do Skaner w panelu operatora" title="Bezpośredni link do Skaner w panelu operatora" translate=no>​</a></h3>
+<p>Funkcjonalność ta automatyzuje proces nawigacji w panelu operatora.
+Operator, zamiast ręcznie przeszukiwać listę zadań, ma możliwość zeskanowania kodu surowca lub wyrobu gotowego.
+Po zeskanowaniu system automatycznie przeniesie go do właściwego ekranu rozliczeń (pobrania materiału lub przyjęcia wyrobu).</p>
+<p><strong>Skanowanie surowca:</strong></p>
+<ul>
+<li class="">system identyfikuje pierwszą dostępną operację przypisaną do operatora, w której zeskanowany towar występuje jako składnik,</li>
+<li class="">operacja zostaje automatycznie rozpoczęta,</li>
+<li class="">system przenosi operatora bezpośrednio do widoku pobierania surowców.</li>
+</ul>
+<p><strong>Skanowanie produktu finalnego:</strong></p>
+<ul>
+<li class="">system identyfikuje operację, w której zeskanowany towar jest produktem wyjściowym,</li>
+<li class="">system przenosi użytkownika bezpośrednio do widoku rozliczania wyrobów.</li>
+</ul>
+<p>W przypadku, gdy ten sam produkt występuje w dostępnych zadaniach jednocześnie jako surowiec (w jednej operacji) i jako produkt finalny (w innej), system wstrzymuje automatyczne przejście i wyświetla komunikat informujący o niejednoznaczności.
+Jeżeli system nie znajdzie żadnej operacji powiązanej z wprowadzonym kodem, wyświetlony zostanie komunikat: „Nie odnaleziono pasującej operacji”.</p>
+<p><strong>Panel operatora okno skanowania</strong></p>
+<p><img decoding=async loading=lazy alt="Panel operatora okno skanowania" src=data:image/png;base64,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 width=351 height=184 class=img_ev3q /></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Strona dokumentacji"><a class="pagination-nav__link pagination-nav__link--prev" href=/docs/konfiguracja-systemu/zamowienia-od-klientow><div class=pagination-nav__sublabel>Poprzednia strona</div><div class=pagination-nav__label>6.6. Zamówienia od klientów</div></a><a class="pagination-nav__link pagination-nav__link--next" href=/docs/konfiguracja-systemu/zadania-okoloprodukcyjne><div class=pagination-nav__sublabel>Następna strona</div><div class=pagination-nav__label>6.8. Zadania okołoprodukcyjne</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#moje-operacje-w-panelu-operatora class="table-of-contents__link toc-highlight">Moje operacje w panelu operatora</a><li><a href=#realizowane-w-panelu-operatora class="table-of-contents__link toc-highlight">Realizowane w panelu operatora</a><li><a href=#kontrola-jakości-w-panelu-operatora class="table-of-contents__link toc-highlight">Kontrola jakości w panelu operatora</a><li><a href=#awarie-w-panelu-operatora class="table-of-contents__link toc-highlight">Awarie w panelu operatora</a><li><a href=#zadania-okołoprodukcyjne-w-panelu-operatora class="table-of-contents__link toc-highlight">Zadania okołoprodukcyjne w panelu operatora</a><li><a href=#przerwy-w-panelu-operatora class="table-of-contents__link toc-highlight">Przerwy w panelu operatora</a><li><a href=#skaner-w-panelu-operatora class="table-of-contents__link toc-highlight">Skaner w panelu operatora</a></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class=footer__copyright>Copyright © 2026 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div></body>

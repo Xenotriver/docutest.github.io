@@ -70,3 +70,21 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--ifm-color-primary-dark);
 }
+
+/* Lightbox */
+.yarl__root {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 9999 !important;
+}
+
+.yarl__container {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+body:has(.yarl__root) {
+  overflow: hidden;
+}

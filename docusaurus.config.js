@@ -70,7 +70,7 @@ const config = {
       }),
     ],
   ],
-	plugins: ['docusaurus-plugin-image-zoom'],
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -94,57 +94,10 @@ const config = {
           },
 		],
       },
-	  zoom: {
-		selector: '.markdown img',
-		background: {
-			light: 'rgb(255, 255, 255)',
-			dark: 'rgb(50, 50, 50)',
-		},
-	},
       footer: {
         style: 'dark',
         links: [
-         //{
-         //  title: 'Docs',
-         //  items: [
-         //    {
-         //      label: 'Tutorial',
-         //      to: '/docs/intro',
-         //    },
-         //  ],
-         //},
-         //{
-         //  title: 'Community',
-         //  items: [
-         //    {
-         //      label: 'Stack Overflow',
-         //      href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-         //    },
-         //    {
-         //      label: 'Discord',
-         //      href: 'https://discordapp.com/invite/docusaurus',
-         //    },
-         //    {
-         //      label: 'X',
-         //      href: 'https://x.com/docusaurus',
-         //    },
-         //  ],
-         //},
-         //{
-         //  title: 'More',
-         //  items: [
-         //    {
-         //      label: 'Blog',
-         //      to: '/blog',
-         //    },
-         //    {
-         //      label: 'GitHub',
-         //      href: 'https://github.com/facebook/docusaurus',
-         //    },
-         //  ],
-         //},
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
